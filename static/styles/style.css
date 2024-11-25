@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+    font-family: Montserrat;
+    background: linear-gradient(#ffce00, rgb(0, 0, 0));
+}
+
+.header{
+    background-color: black;
+}
+
+.nav-link{
+    color: #ffce00
+}
+
+.navbar-nav .nav-link.active{
+    color: #ffea97;
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.navbar-toggler{
+    background-color: #ffce00;
+}
+
+h1{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.card{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0000008f;
+    border: #00000000;
+    color: #ffce00;
+}   
+
+.btn{
+    background-color: #ffce00;
+    color: #000000;
+    border-radius: 45px;
+}
+
+h5{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.story{
+    color: #ffce00;
+    
+}
+
+.content{
+    color: #ffce00;
+}
+
+.squad{
+    display: flex;  
+    gap: 30px;
+    width: 100%;
+    overflow: auto;
+    scrollbar-width: thin;
+    
+}
+
+.card-1{
+    background-color: #00000086;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    min-width: 300px;
+    scroll-snap-align: center;
+}
+
+.card-text-1{
+   margin-top: 15px; 
+}
+
+span1{
+    color: #64ff69;
+}
+
+span2{
+    color: #eeeeee;
+}
+
+.carousel{
+    filter: brightness(50%);
+}
+
+.content-story{
+    display: flex;
+    margin: auto;
+}
+
+.content-left{
+    background-color: #00000086;
+    width: 700px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    padding: 20px;
+    border-radius: 15px;
+    color: #ffce00;
+    font-size: 29px;
+}
+
+.content-right{
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.info{
+    background-color: #000000;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
